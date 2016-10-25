@@ -48,6 +48,7 @@ class PID
 	double GetKp();						  // These functions query the pid for interal values.
 	double GetKi();						  //  they were created mainly for the pid front-end,
 	double GetKd();						  // where it's important to know what is actually 
+	double GetITerm();
 	int GetMode();						  //  inside the PID.
 	int GetDirection();					  //
 
